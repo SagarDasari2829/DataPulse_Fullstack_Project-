@@ -13,10 +13,7 @@ DataPulse is a full-stack app with:
 - Backend: Vercel 
 - Database: MongoDB Atlas
 
-The backend exposes:
 
-- REST API over `https://<backend-domain>`
-- WebSocket endpoint over `wss://<backend-domain>/ws`
 
 ## Project structure
 
@@ -54,20 +51,6 @@ Create `frontend/.env` from `frontend/.env.example`.
 ```env
 VITE_API_BASE_URL=http://localhost:5000
 ```
-
-Production example:
-
-```env
-VITE_API_BASE_URL=https://your-backend-service.onrender.com
-```
-
-Optional override:
-
-```env
-VITE_SOCKET_URL=wss://your-backend-service.onrender.com/ws
-```
-
-If `VITE_SOCKET_URL` is not set, the frontend automatically derives it from `VITE_API_BASE_URL`.
 
 ## Local development
 
@@ -162,7 +145,7 @@ Replace these placeholders with your real deployed URLs:
 ## Notes
 
 - The backend now serves WebSocket connections on the same host and port as the HTTP API using `/ws`.
-- This setup is production-friendly for Render and Railway, where apps normally expose a single public port.
+- 
 - Vercel is a good fit for the frontend, but not for a persistent Node WebSocket server.
 
 ## Authentication  Or Autherization 
