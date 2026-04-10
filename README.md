@@ -10,7 +10,7 @@ DataPulse is a full-stack app with:
 ## Production architecture
 
 - Frontend: Vercel
-- Backend: Render or Railway
+- Backend: Vercel 
 - Database: MongoDB Atlas
 
 The backend exposes:
