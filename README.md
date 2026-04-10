@@ -164,3 +164,32 @@ Replace these placeholders with your real deployed URLs:
 - The backend now serves WebSocket connections on the same host and port as the HTTP API using `/ws`.
 - This setup is production-friendly for Render and Railway, where apps normally expose a single public port.
 - Vercel is a good fit for the frontend, but not for a persistent Node WebSocket server.
+
+## Authentication  Or Autherization 
+ - additional feature add this project :
+ - Register Pages : 
+ - <img width="1474" height="829" alt="Screenshot 2026-04-10 070700" src="https://github.com/user-attachments/assets/1200c2a8-d921-401c-820b-afce4f1c7dac" />
+
+
+ - Login page : 
+ - <img width="1842" height="918" alt="Screenshot 2026-04-10 070637" src="https://github.com/user-attachments/assets/b3a498ce-3cb7-47c9-8754-2796f541917f" />
+
+
+  - Home :
+  - this home page  :
+  -
+
+  
+  -
+  - <img width="1905" height="925" alt="Screenshot 2026-04-10 070442" src="https://github.com/user-attachments/assets/2a08f687-1da0-4707-b272-27a0f5d3df51" />
+
+
+
+
+
+  
+
+   - <img width="1770" height="1019" alt="Screenshot 2026-04-10 070537" src="https://github.com/user-attachments/assets/402259ac-9556-4a1b-8b7c-8a901448d2e9" />
+
+
+ 
