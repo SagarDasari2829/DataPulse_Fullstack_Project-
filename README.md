@@ -101,7 +101,7 @@ npm run dev
 - Start command: `npm start`
 - Dev command: `npm run dev`
 
-## Deploy backend on Render
+## Deploy backend on  vercel
 
 1. Push this repository to GitHub.
 2. Create a MongoDB Atlas cluster and copy the connection string.
@@ -130,31 +130,7 @@ npm run dev
 - `https://<backend-domain>/health`
 - `wss://<backend-domain>/ws`
 
-## Deploy backend on Railway
 
-1. Push this repository to GitHub.
-2. Create a MongoDB Atlas cluster and copy the connection string.
-3. In Railway, create a new project from the GitHub repo.
-4. Set the service root directory to `backend`.
-5. Add environment variables:
-
-- `MONGODB_URI`
-- `JWT_SECRET`
-- `JWT_EXPIRES_IN`
-- `CORS_ORIGIN`
-- `PORT`
-
-6. Railway will detect Node automatically.
-7. Use:
-
-- Build command: `npm install`
-- Start command: `npm start`
-
-8. Deploy and copy the generated backend URL.
-9. Test:
-
-- `https://<backend-domain>/health`
-- `wss://<backend-domain>/ws`
 
 ## Deploy frontend on Vercel
 
@@ -177,22 +153,13 @@ npm run dev
 8. After deploy, copy the frontend URL and update the backend `CORS_ORIGIN` to that exact domain if needed.
 9. Redeploy the backend if you changed `CORS_ORIGIN`.
 
-## Deployment checklist
 
-1. Create MongoDB Atlas database.
-2. Deploy backend to Render or Railway.
-3. Copy backend URL.
-4. Deploy frontend to Vercel with `VITE_API_BASE_URL` pointing to backend.
-5. Set backend `CORS_ORIGIN` to the Vercel domain.
-6. Verify API and WebSocket connectivity from the deployed frontend.
 
 ## Expected final URLs
 
 Replace these placeholders with your real deployed URLs:
 
 - Frontend URL: `https://your-frontend-app.vercel.app`
-- Backend URL: `https://your-backend-service.onrender.com`
-- WebSocket URL: `wss://your-backend-service.onrender.com/ws`
 
 ## Notes
 
