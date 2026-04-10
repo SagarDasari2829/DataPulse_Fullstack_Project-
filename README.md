@@ -104,8 +104,6 @@ npm run dev
 ## Deploy backend on  vercel
 
 1. Push this repository to GitHub.
-2. Create a MongoDB Atlas cluster and copy the connection string.
-3. In Render, create a new `Web Service`.
 4. Connect the GitHub repository.
 5. Set the Render root directory to `backend`.
 6. Use these settings:
@@ -156,9 +154,9 @@ npm run dev
 
 
 ## Expected final URLs
-
+<img width="1913" height="968" alt="Screenshot 2026-04-10 072613" src="https://github.com/user-attachments/assets/fd85bfc2-736d-4fec-834b-669ef8481908" />
 Replace these placeholders with your real deployed URLs:
-
+- Backend URL : `https://data-pulse-backend.vercel.app/`
 - Frontend URL: `https://your-frontend-app.vercel.app`
 
 ## Notes
